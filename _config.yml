@@ -1,0 +1,19 @@
+title: 웰니스 케어랩
+description: 안마기, 마사지건, 건강 가전 및 부모님 효도 선물 실속 비교
+url: "https://care.enjoy-onepage.com"
+baseurl: ""
+theme: minima
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - auto_poster.py
+  - requirements.txt
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - used_keywords.txt
+header_pages:
+  - all_posts.md
